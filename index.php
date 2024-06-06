@@ -1,5 +1,6 @@
 <?php 
-define("BASE_URL", '/mvc');
+
+define("BASE_URL", '/modeleMVCRouteur');
 
 // Inclusion des classes
 require_once 'models/Router.php';
