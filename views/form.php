@@ -8,7 +8,7 @@
 <body>
     <h1>Login</h1>
 
-   <form action="<?php echo BASE_URL.'/profile'; ?>"  method="post">
+   <form action="<?php echo BASE_URL.'/profile'; ?>"  method="POST">
     <label for="email">Email:</label>
    <input type="email" id="email" name="email" required><br><br>
 

@@ -16,6 +16,8 @@ $router = new Router();
 // Définition des Routes
 
 $router->addRoute('GET', BASE_URL.'/', 'HomeController', 'index');
+$router->addRoute('POST' , BASE_URL.'/profile', 'ProfileController','index');
+$router->addRoute('GET' , BASE_URL.'/logout', 'LogoutController', 'index');
 
 $method = $_SERVER['REQUEST_METHOD'];
 $uri = $_SERVER['REQUEST_URI'];
