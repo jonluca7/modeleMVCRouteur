@@ -19,7 +19,6 @@ $user = new User($email);
     <ul>
          <li><?php echo $user->getEmail(); ?></li>
     </ul>
-
-    <a href="<?php echo BASE_URL; ?> /logout">Se deconnecter</a>
+      <a href="<?php echo BASE_URL; ?>/logout">Se deconnecter</a>
 </body>
 </html>
